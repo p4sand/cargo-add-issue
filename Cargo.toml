@@ -1,0 +1,10 @@
+[workspace]
+members = ["child-package"]
+
+[package]
+name = "root-package"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+child-package = { path = "child-package", registry = "private-registry" }
