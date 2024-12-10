@@ -5,6 +5,3 @@ members = ["child-package"]
 name = "root-package"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
-serde = { version = "1.0.215", registry = "foo" }
