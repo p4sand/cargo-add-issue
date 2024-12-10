@@ -1,7 +1,10 @@
-[workspace]
-members = ["child-package-1", "child-package-2"]
+# [workspace]
+# members = ["child-package-1", "child-package-2"]
 
 [package]
 name = "root-package"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.215", registry = "foo" }
