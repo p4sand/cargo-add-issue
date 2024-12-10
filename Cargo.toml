@@ -7,4 +7,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-child-package = { path = "child-package", registry = "private-registry" }
+another-package = { registry = "private-registry" }
