@@ -1,2 +1,2 @@
-[registries.private-registry]
-index = "https://private-registry"
+[registries.foo]
+index = "https://foo"
